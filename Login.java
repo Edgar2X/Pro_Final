@@ -10,7 +10,9 @@ public class Login {
     public void EfetuarLogin(String u,String s){
         if ( u == this.Usuario){
             if( s == this.senha){
-                System.out.println("Logado");
+                System.out.println("Olá, " + Usuario);
+                System.out.println("            ");
+
                 confirm = 1;
             }else{
                 System.out.println("Login Incorreto");
